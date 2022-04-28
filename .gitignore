@@ -1,0 +1,9 @@
+code/.terra*
+code/*_lambda/bin
+code/*_lambda/include
+code/*_lambda/lib
+code/*_lambda/lib64
+code/*_lambda/share
+code/*_lambda/*.cfg
+*/*.tfstate*
+*/*_lambda/*.zip

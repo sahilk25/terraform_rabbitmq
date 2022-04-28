@@ -1,0 +1,6 @@
+Provision AWS AmazonMQ cluster with RabbitMQ brokers using Terraform
+Provision a user, an exchange, a queue and their binding in RabbitMQ using Terraform
+Create a Lambda function in your favorite programming language, which reads messages from the queue. Write the content of the messages to logs.
+Deploy the lambda function, the lambda trigger for RabbitMQ, cloudwatch log groups using Terraform
+Test that all terraform deployments work on an empty AWS account.
+Test that once a message is written to the RabbitMQ queue then its content appears in the Cloudwatch log.   
